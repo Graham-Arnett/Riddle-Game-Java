@@ -18,7 +18,7 @@ public class Main {
 		{
 			System.out.print(questions[i]);
 			String entry = scanner.next();
-			if(entry == answers[i].toLowerCase())
+			if(entry.equals(answers[i]))
 			{
 				System.out.println("That is CORRECT!");
 				score++;
