@@ -17,7 +17,7 @@ public class Main {
 		for (int i = 0; i < questions.length; i++) 
 		{
 			System.out.print(questions[i]);
-			String entry = scanner.next();
+			String entry = scanner.next().toLowerCase();
 			if(entry.equals(answers[i]))
 			{
 				System.out.println("That is CORRECT!");
